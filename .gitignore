@@ -1,0 +1,72 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Entornos virtuales Python
+venv/
+env/
+ENV/
+.venv
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Datos (no versionar archivos grandes, EXCEPTO Base_de_datos)
+# *.csv → Incluimos Base_de_datos.csv (datos del proyecto)
+# *.xlsx → Incluimos solo el archivo de datos principal
+data/
+output/
+temp/
+
+# EXCEPCIONES: Estos archivos SÍ se versionan
+!Base_de_datos.csv
+!Base_de_datos.xlsx
+
+# MLflow / Experimentos
+mlruns/
+.mlflow/
+
+# IDE - VSCode / Cursor
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# IDE - PyCharm
+.idea/
+*.iml
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
