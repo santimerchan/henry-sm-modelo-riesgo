@@ -248,7 +248,7 @@ de 3.229 filas. Resultado: **drift en 8 de 14 variables** (57%), severidad **alt
 | `plazo_meses` | numérica | **0.3768** | 0.1593 | 0.2546 | — |
 | `promedio_ingresos_datacredito` | numérica | **0.2846** | 0.1191 | 0.2195 | — |
 | `tipo_laboral` | categórica | — | — | 0.2542 | **< 0.0001** |
-| `tendencia_ingresos` | categórica | — | — | 0.2442 | **< 0.0001** |
+| `tendencia_ingresos` | categórica | — | — | 0.2485 | **< 0.0001** |
 | `tipo_credito` | categórica | — | — | 0.2349 | **< 0.0001** |
 
 ### Variables estables
